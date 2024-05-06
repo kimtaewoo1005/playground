@@ -1,0 +1,42 @@
+# executables
+/main
+/skeleton-go-cli
+!/skeleton-go-cli/
+
+# Mac
+.DS_Store
+
+# IDE
+.idea
+.run
+.vscode
+
+# ENV
+.env
+*_rsa
+.secret*
+
+# Terraform
+*.tfstate*
+.terraform
+
+# Golang
+dist
+vendor
+coverage.*
+
+# Sonar
+.scannerwork
+/.local/
+
+# Air
+.air.toml
+/tmp/
+
+# Logs
+*.log
+logs*
+
+# data files
+*.json
+*.csv
